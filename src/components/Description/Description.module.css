@@ -1,0 +1,18 @@
+.page-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.04167;
+  letter-spacing: -0.01em;
+  margin: 24px 0;
+  color: #a167f8;
+  text-align: center;
+}
+
+.page-description {
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+  color: #d4b7ff;
+  text-align: center;
+}

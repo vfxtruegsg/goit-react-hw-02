@@ -1,0 +1,32 @@
+.options-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.option-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  color: #495057;
+  padding: 10px 20px;
+  min-width: 110px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #d4b7ff;
+  scale: 1.05;
+}
+
+.option-btn-reset {
+  display: block;
+  composes: option-btn;
+}
+
+.hidden {
+  display: none;
+}
